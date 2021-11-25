@@ -1,0 +1,17 @@
+.cart {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.nav-li {
+    color: blue;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+@media (max-width:744px){
+    [class~="cart"] { display: none; }
+    [class~="login-button"] { display: none}
+}

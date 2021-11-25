@@ -1,0 +1,99 @@
+.main-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.about-img {
+    height: auto;
+    width: 700px;
+    margin-top: 100px;
+}
+
+.content{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #4671C1;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+
+@media(max-width: 992px){
+    .content h2{
+        font-size: 26px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:744px){
+    [class~="main-sec"] { display:flex; justify-content:center;  align-items:center; }
+    [class~="about-img"] { display: none; }
+}
+
+@media screen and (max-width:600px){
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}
+
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #4671C1;
+    color: white;
+    cursor: pointer;
+}
+
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #4671C1;
+}
+

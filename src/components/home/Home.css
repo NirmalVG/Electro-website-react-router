@@ -1,0 +1,181 @@
+.ad-main {
+    background-color: #EEEEEE;
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.img-main {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 1200px;
+    object-fit: fill; 
+}
+
+.add-button {
+    position: absolute;
+    top: 80%;
+    left: 11%;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.add-button:hover {
+    background-color: orange;
+}
+
+.earphone-section {
+    background-color: #262626;
+    height: auto;
+    border-radius: 30px;
+    position: relative;
+    width: 23%;
+}
+
+.wear-section {
+    background-color: #FDC62E;
+    height: auto;
+    border-radius: 30px;
+    position: relative;
+    width: 23%;
+}
+
+.laptop-section {
+    background-color: #F42C37;
+    height: auto;
+    border-radius: 30px;
+    position: relative;
+    width: 47%;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ear-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 300px;
+    object-fit: fill; 
+}
+
+.wear-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 300px;
+    object-fit: fill; 
+}
+
+.laptop-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 500px;
+    object-fit: fill; 
+}
+
+.console-section {
+    background-color: #EEEEF0;
+    height: auto;
+    border-radius: 30px;
+    width: 49%;
+    position: relative;
+}
+
+.oculus-section {
+    background-color: #2CD06F;
+    height: auto;
+    border-radius: 30px;
+    width: 21.5%;
+    position: relative;
+}
+
+.speaker-section {
+    background-color: #1781F6;
+    height: auto;
+    border-radius: 30px;
+    width: 21.5%;
+    position: relative;
+}
+
+.console-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 500px;
+    object-fit: fill; 
+}
+
+.oculus-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 500px;
+    object-fit: fill; 
+}
+
+.speaker-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: 500px;
+    object-fit: fill; 
+}
+
+.head-support {
+    font-size: 15px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.single-feature {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.support-img {
+    margin-left: 20px;
+}
+
+.text-desc {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+@media (max-width:744px){
+    [class~="img-main"] { height: auto; width: 1200px; object-fit: scale-down; }
+    [class~="ad-main"] { height: auto;}
+    [class~="add-button"] { padding: 5px 10px; font-size: 6px; top: 80%; left: 18%;}
+    [class~="first-row"] { flex-direction: column;}
+    [class~="first-section"] { width: 100%; margin-bottom: 20px; height: 300px;}
+    [class~="ear-img"] { height: auto; width: 300px; object-fit: scale-down; }
+    [class~="laptop-img"] { height: 300px; width: 500px; object-fit: scale-down; }
+    [class~="second-row"] { flex-direction: column;}
+    [class~="second-section"] { width: 100%; margin-bottom: 20px; height: 300px;}
+    [class~="speaker-img"] { height: auto; width: 300px; object-fit: scale-down; }
+    [class~="oculus-img"] { height: auto; width: 300px; object-fit: scale-down; }
+    [class~="console-img"] { height: 300px; width: 500px; object-fit: scale-down; }
+    [class~="single-feature"] { flex-direction: column; align-items: center; text-align: center;}
+}
